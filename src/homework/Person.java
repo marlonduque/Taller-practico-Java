@@ -1,14 +1,16 @@
-package homework;
+ package homework;
 
 
-import java.util.Date;
+ import java.util.Date;
 
 
 /**
  * @autor Marlon
  */
-public class Person {
-      //Creacion de atributos
+ public class Person {
+    /**
+     * Attribute creation
+     */
 
         public String name;
         public String lastName1;
@@ -35,7 +37,7 @@ public class Person {
 
     /**
      *
-     * @return retorna in string con nombre
+     * @return returns in string with name
      */
     public String getName() {
         return name;
@@ -48,6 +50,6 @@ public class Person {
     public void setName(String name) {
         this.name = name;
     }
-}
+ }
 
 
